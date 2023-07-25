@@ -10,6 +10,7 @@ function calcular() {
       n2 = n2 * 5;
       n3 = n3 * 6;
       let media = (n1 + n2 + n3) / 15;
+      media = parseFloat(media.toFixed(2));
 
       if (media<7 && media>4){
         let recuperacao = 12 - media;
